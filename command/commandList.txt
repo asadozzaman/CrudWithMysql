@@ -1,0 +1,20 @@
+1. pip install mysqlclient
+
+
+for mysql
+
+
+///////////////
+
+DATABASES = {
+    'default': {
+            'ENGINE': 'django.db.backends.mysql',  
+            'NAME': 'djangodb',  
+            'USER':'root',  
+            'PASSWORD':'',  
+            'HOST':'localhost',  
+            'PORT':'3306'  
+    }
+}
+
+////////////
